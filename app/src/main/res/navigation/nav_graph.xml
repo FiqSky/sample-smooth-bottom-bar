@@ -10,6 +10,7 @@
         android:name="com.fiqsky.samplesmoothbottombar.DashboardFragment"
         android:label="Dashboard"
         tools:layout="@layout/fragment_dashboard" >
+        <!--Ini akan error, com.fiqsky.samplesmoothbottombar ganti dengan nama package name kalian-->
         <action
             android:id="@+id/action_dashboard_fragment_to_inbox_fragment"
             app:destination="@id/inbox_fragment" />
@@ -19,6 +20,7 @@
         android:name="com.fiqsky.samplesmoothbottombar.InboxFragment"
         android:label="Inbox"
         tools:layout="@layout/fragment_inbox" >
+        <!--Ini akan error, com.fiqsky.samplesmoothbottombar ganti dengan nama package name kalian-->
         <action
             android:id="@+id/action_inbox_fragment_to_profileFragment"
             app:destination="@id/profile_fragment" />
@@ -28,4 +30,5 @@
         android:name="com.fiqsky.samplesmoothbottombar.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />
+        <!--Ini akan error, com.fiqsky.samplesmoothbottombar ganti dengan nama package name kalian-->
 </navigation>

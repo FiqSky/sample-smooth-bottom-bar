@@ -5,15 +5,18 @@
         android:id="@+id/dashboard_fragment"
         android:title="@string/home"
         android:icon="@drawable/ic_baseline_dashboard_24"/>
+        <!--ganti sesuai dengan nama icon kalian-->
 
     <item
         android:id="@+id/inbox_fragment"
         android:title="@string/inbox"
         android:icon="@drawable/ic_baseline_inbox_24"/>
+        <!--ganti sesuai dengan nama icon kalian-->
 
     <item
         android:id="@+id/profile_fragment"
         android:title="@string/profile"
         android:icon="@drawable/ic_baseline_person_outline_24"/>
+        <!--ganti sesuai dengan nama icon kalian-->
 
 </menu>

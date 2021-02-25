@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <fragment
+    <androidx.fragment.app.FragmentContainerView
         android:id="@+id/main_fragment"
         android:name="androidx.navigation.fragment.NavHostFragment"
         android:layout_width="match_parent"
@@ -22,7 +22,7 @@
         android:id="@+id/bottomBar"
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        app:backgroundColor="@color/design_default_color_primary"
+        app:backgroundColor="#bf2f3f"
         app:iconSize="24dp"
         app:iconTint="#C8FFFFFF"
         app:iconTintActive="#FFFFFF"
